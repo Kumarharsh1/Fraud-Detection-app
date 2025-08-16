@@ -138,7 +138,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import confusion_matrix, classification_report
 
 # 2. Load the dataset (assuming you have already uploaded 'Fraud.csv')
-df = pd.read_csv('/content/sample_data/Fraud.csv')
+df = pd.read_csv('Fraud.csv')
+
 
 # --- Data Cleaning and Preprocessing ---
 
