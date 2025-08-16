@@ -15,7 +15,8 @@ import seaborn as sns
 
 # Load the dataset
 # Replace 'Fraud.csv' with the actual filename if it's different
-df = pd.read_csv('/content/sample_data/Fraud.csv')
+df = pd.read_csv('Fraud.csv')
+
 
 # Display the first few rows of the dataframe
 print(df.head())
